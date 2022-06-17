@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--mycss-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+      <!--footer-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <title>Book world</title>
+  </head>
+  <body>
+    
+<!--navbar-->
+ <nav class="navbar navbar-expand-lg navbar-light" style="background-color:  rgba(115, 89, 64, 0.40);">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+          <img src="picture/logo.jpg" alt="" width="40" height="30" class="d-inline-block align-text-top">Book world</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Browser
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item listhover" href="#">Subjects</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item listhover" href="#">Trending</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item listhover" href="#">List</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item listhover" href="#">Library Explorer</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item listhover" href="service.html#club" target="blank">Add a Book</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item listhover" href="service.html#Membership" target="blank">Recent Community Edits</a></li>
+            <li><hr class="dropdown-divider"></li>
+            
+            <li><a class="dropdown-item listhover" href="service.html#Customization" target="blank">Developer center</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item listhover" href="service.html#Content" target="blank">Help & Support</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bootstrap.html#contact">Contact</a>
+        </li>
+       
+      </ul>
+
+      
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success mybtn smallbtn" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav> 
+
+
+    <!--slide-->
+
+
+<div id="carouselExampleIndicators" class="carousel slide mt-3" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="picture/Screenshot_1.jpg" class="d-block w-100" alt="1" width="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="picture/Screenshot_2.jpg" class="d-block w-100" alt="2" width="100%">
+    </div>
+  
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!--Trending Books card-->
+
+<div class="container mt-5">
+  <div class="row">
+    <h1 class="h1color">Trending Books</h1> <hr class="mb-3">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+
+      <div class="card" style="width: 100%;">
+  <img src="picture/card book 1.jpg" class="card-img-top" alt="..." width="100%">
+  <div class="card-body">
+    
+    
+    <a href="#" class="btn btn-primary smallbtn">Preview</a>
+
+  </div>
+</div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+      <div class="card" style="width: 100%;">
+  <img src="picture/card book 2.jpg" class="card-img-top" alt="..." width="100%">
+  <div class="card-body">
+  
+    
+    <a href="#" class="btn btn-primary smallbtn">Checked Out</a>
+  </div>
+</div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+      <div class="card" style="width: 100%">
+  <img src="picture/card book 3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   
+    <a href="#" class="btn btn-primary smallbtn">Checked Out</a>
+  </div>
+</div>
+    </div>
+
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+    <div class="card" style="width: 100%;">
+  <img src="picture/card book 4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    
+    <a href="#" class="btn btn-primary smallbtn">Preview</a>
+  </div>
+</div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!--Classic Books card-->
+
+<div class="container mt-5">
+  <div class="row">
+    <h1 class="h1color">Classic Books</h1> <hr class="mb-3">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+
+      <div class="card" style="width: 100%;">
+  <img src="picture/classic 1.jpg" class="card-img-top" alt="..." width="100%">
+  <div class="card-body">
+    
+    
+    <a href="#" class="btn btn-primary smallbtn">Read</a>
+
+  </div>
+</div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+      <div class="card" style="width: 100%;">
+  <img src="picture/classic 2.jpg" class="card-img-top" alt="..." width="100%">
+  <div class="card-body">
+  
+    
+    <a href="#" class="btn btn-primary smallbtn">Read</a>
+  </div>
+</div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+      <div class="card" style="width: 100%">
+  <img src="picture/classic  3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   
+    <a href="#" class="btn btn-primary Notbtn">Not in Library</a>
+  </div>
+</div>
+    </div>
+
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+    <div class="card" style="width: 100%;">
+  <img src="picture/classic 4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    
+    <a href="#" class="btn btn-primary smallbtn">Read</a>
+  </div>
+</div>
+      
+    </div>
+  </div>
+</div>
+
+<!--Recently Returned-->
+
+  <!--1st pic-->
+    
+
+
+<div class="container mt-5">
+  <div class="row">
+    <h1 class="h1color">Recently Returned Books</h1> <hr class="mb-3">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+
+      <div class="card" style="width: 100%;">
+  <img src="picture/return 1.jpg" class="card-img-top" alt="..." width="100%">
+  <div class="card-body">
+    
+    
+    <a href="#" class="btn btn-primary smallbtn">Borrow</a>
+
+  </div>
+</div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+      <div class="card" style="width: 100%;">
+  <img src="picture/return 2.jpg" class="card-img-top" alt="..." width="100%">
+  <div class="card-body">
+  
+    
+    <a href="#" class="btn btn-primary smallbtn">Borrow</a>
+  </div>
+</div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+      <div class="card" style="width: 100%">
+  <img src="picture/return 3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   
+    <a href="#" class="btn btn-primary smallbtn">Borrow</a>
+  </div>
+</div>
+    </div>
+
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+    <div class="card" style="width: 100%;">
+  <img src="picture/return 4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    
+    <a href="#" class="btn btn-primary smallbtn">Borrow</a>
+  </div>
+</div>
+      
+    </div>
+  </div>
+</div>
+
+
+    </div>
+
+
+    <!--2nd pic-->
+  
+
+<div class="container mt-5">
+  <div class="row">
+    
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+
+      <div class="card" style="width: 100%;">
+  <img src="picture/return 5.jpg" class="card-img-top" alt="..." width="100%">
+  <div class="card-body">
+    
+    
+    <a href="#" class="btn btn-primary smallbtn">Borrow</a>
+
+  </div>
+</div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+      <div class="card" style="width: 100%;">
+  <img src="picture/return 6.jpg" class="card-img-top" alt="..." width="100%">
+  <div class="card-body">
+  
+    
+    <a href="#" class="btn btn-primary smallbtn">Borrow</a>
+  </div>
+</div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+      <div class="card" style="width: 100%">
+  <img src="picture/return 8.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   
+    <a href="#" class="btn btn-primary smallbtn">Borrow</a>
+  </div>
+</div>
+    </div>
+
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+    <div class="card" style="width: 100%;">
+  <img src="picture/return 8.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    
+    <a href="#" class="btn btn-primary smallbtn">Borrow</a>
+  </div>
+</div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!--Kids-->
+
+
+<div class="container mt-5">
+  <div class="row">
+    <h1 class="h1color">Kids</h1> <hr class="mb-3">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+
+      <div class="card" style="width: 100%;">
+  <img src="picture/classic 1.jpg" class="card-img-top" alt="..." width="100%">
+  <div class="card-body">
+    
+    
+    <a href="#" class="btn btn-primary smallbtn">Read</a>
+
+  </div>
+</div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+      <div class="card" style="width: 100%;">
+  <img src="picture/classic 2.jpg" class="card-img-top" alt="..." width="100%">
+  <div class="card-body">
+  
+    
+    <a href="#" class="btn btn-primary smallbtn">Read</a>
+  </div>
+</div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+      <div class="card" style="width: 100%">
+  <img src="picture/classic  3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   
+    <a href="#" class="btn btn-primary Notbtn">Not in Library</a>
+  </div>
+</div>
+    </div>
+
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+    <div class="card" style="width: 100%;">
+  <img src="picture/classic 4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    
+    <a href="#" class="btn btn-primary smallbtn">Read</a>
+  </div>
+</div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!--Browse by Subject-->
+
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="h1color">Browse by Subject</h1> <hr class="mb-3">
+    </div>
+    </div>
+    <div class="row">
+<div class="col-12">
+  <img src="picture/Browse sub 1_ps.jpg" width="100%">
+</div>
+</div>
+
+<div class="row">
+  <div class="col-12">
+    <img src="picture/browse sub 2_ps.jpg" width="100%">
+  </div>
+</div>
+  
+</div>
+
+
+<!--Contact us-->
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <h1 class="h1color" id="contact">Contact Us</h1> <hr>
+      <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+<a href="#" class="btn btn-primary smallbtn">Contact Now</a>
+    </div>
+
+
+    <div class="col-6">
+      <img src="https://www.designrush.com/uploads/users/customer-11/image_1530667878_gQ0EfQfL9GHKYrCdjsUuKRjzTU2JwMZYKso6vcpp.jpeg" width="100%" class="display">
+    </div>
+
+  </div>
+</div>
+
+
+<!--About the Project-->
+
+<div class="container mt-3 bgcolor">
+  <div class="row mt-3 ">
+    <div class="col-xs-12 col-md-6">
+
+      <h3 class="h1color">About the Project</h3>
+
+      <p align="justify">Open Library is an open, editable library catalog, building towards a web page for every book ever published.
+      Just like Wikipedia, you can contribute new information or corrections to the catalog. You can browse by subjects, authors or lists members have created. If you love books, why not help build a library?</p>
+      
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+
+      <p align="justify">
+      <a href="https://blog.openlibrary.org/" target="blank">Latest Blog Posts</a> <br></p>
+
+        April 27, 2022
+        <p class="cursive">A High Schooler’s Experience Contributing to the Open Book Genome Project</p>
+        December 20, 2021 <br>
+        <p class="cursive">Introducing Trusted Book Providers</p>
+         <br>
+        November 5, 2021
+        <p class="cursive">Open Library in Every Language </p>
+        
+      </p>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<!--footer-->
+
+<div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Help</h3>
+                        <ul>
+                            <li><a href="">Help Center</a></li>
+                            <li><a href="https://openlibrary.org/help" target="blank">Report A Problem</a></li>
+                            <li><a href="https://openlibrary.org/contact?path=%2F" target="blank">Customization</a></li>
+                            <li><a href="https://openlibrary.org/help/faq/editing" target="blank">Suggesting Edits</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Discover</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Books</a></li>
+                            <li><a href="#">Authors</a></li>
+                            <li><a href="#">Subjects</a></li>
+                            <li><a href="#">Return to Top</a></li>
+                            <li><a href="#">Advanced Search</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Book World</h3>
+                        <p>Open Library is an initiative of the Internet Archive, a non-profit, building a digital library of Internet sites and other cultural artifacts in digital form. Other projects include the Wayback Machine, archive.org and archive-it.org</p>
+                    </div>
+                <div class="col item social">
+                    <a href="https://www.facebook.com/groups/424826865841932/" target="blank">
+                      <i class="icon ion-social-facebook"></i>
+                    </a>
+                    <a href="#">
+                      <i class="icon ion-social-twitter"></i>
+                    </a>
+                    <a href="#">
+                      <i class="icon ion-social-snapchat"></i>
+                    </a>
+                    <a href="#">
+                      <i class="icon ion-social-instagram"></i
+                    </a>
+                </div>
+                </div>
+                <p class="copyright">Book World</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
